@@ -1,0 +1,40 @@
+body {
+  background-color: #fafafa;
+  font-family: 'Montserrat', sans-serif;
+}
+h1 {
+  font-size: 2em;
+  margin: 20px 0 20px;
+  text-align: center;
+}
+h2 {
+  font-size: 1.3em;
+  font-weight: 700;
+  margin: 20px 0;
+}
+h3 {
+  font-size: 1.1em;
+  padding: 10px 0;
+}
+article {
+  border-bottom: 1px solid #e6e6e6;
+  padding-bottom: 10px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 100vh;
+  padding: 10px;
+}
+.moreLink {
+  font-size: 0.8em;
+}
+.emptyCart {
+  font-style: italic;
+  font-size: 0.7em;
+}
+td {
+  border: 1px solid #e6e6e6;
+  padding: 10px;
+}
