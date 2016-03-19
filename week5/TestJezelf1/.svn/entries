@@ -1,0 +1,43 @@
+8
+
+dir
+48
+http://jorre.svn.beanstalkapp.com/php4wa/les5/check-login-realtime-opgave
+http://jorre.svn.beanstalkapp.com/php4wa
+
+
+
+2010-03-30T09:20:54.688237Z
+48
+jorre
+
+
+svn:special svn:externals svn:needs-lock
+
+sql
+dir
+
+ajax
+dir
+
+images
+dir
+
+css
+dir
+
+signup.php
+file
+
+
+
+
+2010-03-30T09:04:40.250000Z
+5d03a79a065d9f09b1be7c6675ca5b48
+2010-03-30T09:20:54.688237Z
+48
+jorre
+
+classes
+dir
+

@@ -1,0 +1,51 @@
+<?php
+class User
+{
+	private $m_sUserName;	
+	public function __set($p_sProperty, $p_vValue)
+	{
+		switch($p_sProperty)
+		{
+			case "Username":
+				$this->m_sUserName = $p_vValue;
+				break;
+		}	   
+	}
+	
+	public function __get($p_sProperty)
+	{
+		$vResult = null;
+		switch($p_sProperty)
+		{
+		case "Username": 
+			$vResult = $this->m_sUserName;
+			break;
+		}
+		return $vResult;
+	}
+	
+	public function UsernameAvailable()
+	{
+		include("Connection.php"); //open connection to Dbase
+		mysqli_close($link); //close connection with Dbase
+	}
+	
+	public function Create()
+	{
+			include("Connection.php");
+			$sSql = "insert into tblusers (user_login) values ('".mysqli_real_escape_string($link, $this->m_sUserName)."');";	
+			if ($rResult = mysqli_query($link, $sSql))
+			{	
+				//query went OK
+			}
+			else
+			{		
+				echo $sSql;			
+				// er zijn geen query resultaten, dus query is gefaald
+				throw new Exception('Caramba! Could create your account!');	
+			}					
+			mysqli_close($link);
+	}
+	
+}
+?>

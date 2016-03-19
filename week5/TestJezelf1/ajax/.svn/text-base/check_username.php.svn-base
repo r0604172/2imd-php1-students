@@ -1,0 +1,4 @@
+<?php
+	include_once('../classes/User.class.php');
+
+?>
