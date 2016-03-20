@@ -1,0 +1,66 @@
+body
+{
+    font-family: "Lucida Grande", Tahoma, Verdana, sans-serif;
+}
+
+h1
+{
+    margin-bottom: 5px;
+}
+
+h2
+{
+    color: #3b5998;
+    display: inline;
+}
+
+ul
+{
+    margin-top: 10px;
+}
+
+ul li
+{
+    border-bottom: 1px dotted #fff;
+    padding: 15px 5px;
+}
+
+#activitymessage
+{
+    border: 1px solid #bbbbbb;
+    padding: 5px;
+    width: 280px;
+    font-size: 1.1em;
+}
+
+div.statusupdates
+{
+    width: 380px;
+    background-color: #ccc;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+#btnSubmit
+{
+    background-color: #627aac;
+    color: #fff;
+    font-size: 1.1em;
+    border: 1px solid #29447e;
+}
+
+div.errors
+{
+    width: 380px;
+    margin: 25px auto;
+    background-color: #bd273a;
+    -moz-border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #000;
+    padding: 20px;
+    display:none;
+}
+.btnRemove {
+    float: right;
+}
